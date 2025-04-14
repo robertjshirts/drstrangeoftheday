@@ -4,7 +4,7 @@ import Image from "next/image";
 import * as React from "react";
 
 interface DrImageProps {
-  dayNumber: number;
+  dayNumber: string;
 }
 
 export default function DrImage({ dayNumber }: DrImageProps) {
