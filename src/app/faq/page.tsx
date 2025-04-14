@@ -22,6 +22,9 @@ export default function FaqPage() {
           <p>$1 as long as you are close (less than 0.5 mi) and provide a marker and whiteboard.</p>
         </div>
         <div className="mb-8">
+          <h2 className="text-2xl font-semibold">WHERE CAN I FIND YOU ON TIKTOK</h2>
+          <p>Great question, just go to my <a href="https://www.tiktok.com/@mistershirts">TikTok</a></p>
+        <div className="mb-8">
           <h2 className="text-2xl font-semibold">PLEASE LET ME ORDER A COMISSION</h2>
           <p>Forward your enquiries to robertjshirts@gmail.com</p>
         </div>
