@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 export default function FaqPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
         <h1 className="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
         <div className="mb-8">
@@ -24,6 +23,11 @@ export default function FaqPage() {
         <div className="mb-8">
           <h2 className="text-2xl font-semibold">WHERE CAN I FIND YOU ON TIKTOK</h2>
           <p>Great question, just go to my <a href="https://www.tiktok.com/@mistershirts">TikTok</a></p>
+        </div>
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold">WHERE CAN I FIND YOU ON INSTAGRAM</h2>
+          <p>Great question, just go to my <a href="https://www.instagram.com/drstrangeoftheday">Instagram</a></p>
+        </div>
         <div className="mb-8">
           <h2 className="text-2xl font-semibold">PLEASE LET ME ORDER A COMISSION</h2>
           <p>Forward your enquiries to robertjshirts@gmail.com</p>
@@ -33,6 +37,5 @@ export default function FaqPage() {
           <p>Forward your enquiries to robertjshirts@gmail.com</p>
         </div>
       </div>
-    </main>
   );
 }
