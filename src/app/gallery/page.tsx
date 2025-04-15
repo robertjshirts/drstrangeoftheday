@@ -6,7 +6,7 @@ import DrImage from '@/component/drimage'; // Import the DrImage component
 
 // Assuming images follow the pattern drstrangeoftheday-{dayNumber}.jpg
 // Display in reverse chronological order
-const imageDays = ["2-3", "2-2", "2-1", "2", "1"]; // Manually list the available days based on the files found, reversed
+const imageDays = ["3", "2-3", "2-2", "2-1", "2", "1"]; // Manually list the available days based on the files found, reversed
 
 export default function Gallery() {
   return (

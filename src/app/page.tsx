@@ -1,12 +1,11 @@
 'use client';
 
-import Link from "next/link"; // Import Link
-import DrImage from "@/component/drimage"; // Import the new component
+import DrImage from "@/component/drimage"; 
 import RefImage from "@/component/refimage";
 
 export default function Home() {
-  // Manually update day number so it stays up until the next day at 5pm and i don't wanna code that
-  const dayNumber = "2";
+  // Manually update day number so it stays up until the next day at 1pm and i don't wanna code that
+  const dayNumber = "3";
 
   return (
     <div className="flex flex-col items-center justify-center p-24 space-y-8">
