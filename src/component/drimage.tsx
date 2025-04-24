@@ -34,6 +34,8 @@ export default function DrImage({ dayNumber }: DrImageProps) {
         filter: blurred ? "blur(30px)" : "none",
         cursor: blurred ? "pointer" : "default",
         transition: "filter 0.5s ease-out",
+        width: "100%",
+        height: "auto",
       }}
       onClick={handleClick}
       onError={handleError} // Handle image loading errors

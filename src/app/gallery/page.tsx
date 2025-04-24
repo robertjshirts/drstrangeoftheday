@@ -1,14 +1,14 @@
-'use client';
-
-import Link from 'next/link';
+// This is now a Server Component
 import * as React from 'react';
-import DrImage from '@/component/drimage'; // Import the DrImage component
+import DrImage from '@/component/drimage'; 
+import { getImageList } from '@/lib/getImageList'; // Import the server-side function
 
 // Assuming images follow the pattern drstrangeoftheday-{dayNumber}.jpg
-// Display in reverse chronological order
-const imageDays = ["5", "4","3-2", "3-1", "3", "2-3", "2-2", "2-1", "2", "1"]; // Manually list the available days based on the files found, reversed
+// Display in reverse chronological order (handled by getImageList)
 
 export default function Gallery() {
+  // Fetch the list server-side
+  const imageDays = getImageList(); 
   return (
     <div className="flex min-h-screen flex-col items-center p-4 md:p-12 lg:p-24 space-y-8">
       <h1 className="text-4xl font-bold text-center mb-8">Dr. Strange Gallery</h1>
