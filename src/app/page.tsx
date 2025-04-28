@@ -8,6 +8,7 @@ export default function Home() {
   const imageList = getImageList(); 
   // Determine the dayNumber using the exact same logic as before
   const dayNumber = imageList.filter(day => !isNaN(Number(day)))[0]; 
+  console.log("dayNumber", dayNumber);
 
   // Render the page content directly
   return (
